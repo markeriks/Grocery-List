@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+</head>
+<body>
+    <main>
+        <div class="grocery-input-section">
+            <h1>Grocery<br>List</h1>
+            <form class="input-form" id="input-form">
+                <div class="form-item">
+                    <input type="text"
+                            class="grocery-input"
+                            id="grocery-input"
+                            name="grocery-input"
+                            placeholder="e.g. Bananas"
+                            required>
+                </div>
+                <button type="submit" class="submit-btn" id="submit-btn">Add</button>
+            </form>
+        </div>
+
+        <div class="grocery-list-section">
+            <h2 id="grocery-list-section-heading">Items</h2>
+
+            <div class="tools-section">
+                <div class="search">
+                    <input type="text" name="grocery" class="search-input" id="search-input" placeholder="Search" required>
+                    <button id="search-btn" class="search-btn">
+                        <img class="search-img" src="/search.png">
+                    </button>
+                </div>
+                <button id="filter-btn" class="filter-btn">
+                    <img class="filter-img" src="/sort.png">
+                </button>
+            </div>
+
+            <div id="grocery-items-inner" class="grocery-items-inner"></div>
+
+
+        </div>
+
+        <div class="filter" id="filter">
+            <button class="filter-close-btn" id="filter-close-btn">X</button>
+            <h3>Filter by category</h3>
+            <button class="filter-clear-btn" id="filter-clear-btn">Clear filter</button>
+            <div id="filter-categories"></div>
+        </div>
+
+    </main>
+
+    <footer>
+    </footer>
+    
+
+
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
