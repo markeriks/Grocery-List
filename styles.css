@@ -202,6 +202,7 @@ h2 {
 .grocery-items-inner {
     transition: opacity 0.3s ease-in-out;
     opacity: 1;
+    min-height: 200px;
 }
 
 #grocery-items-inner.fade-out {
