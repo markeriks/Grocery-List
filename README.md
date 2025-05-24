@@ -5,6 +5,12 @@ This project was a fun way to practice DOM manipulation, event handling, filteri
 
 ---
 
+## 🔗 Live Site
+
+[Visit the live site on Netlify](https://grocerist.netlify.app/)
+
+---
+
 ## ✨ Features
 
 - ✅ Add grocery items to your list
